@@ -7,21 +7,22 @@ This project implements a basic Feedforward Neural Network (FNN) from scratch us
 ## Features
 
 ### Part - 1
-Fully connected layers
-Configurable number of hidden layers and neurons
-Different activation functions (ReLU, Sigmoid, Tanh, etc.)
+* Fully connected layers
+* Configurable number of hidden layers and neurons
+* Different activation functions (ReLU, Sigmoid, Tanh, etc.)
 
 ### Part - 2
-Loss functions (Mean Squared Error, Cross-Entropy)
-Gradient Descent optimization (with learning rate and epochs configuration)
-Accuracy and Loss tracking per epoch
+* Loss functions (Mean Squared Error, Cross-Entropy)
+* Gradient Descent optimization (with learning rate and epochs configuration)
+* Accuracy and Loss tracking per epoch
 
 ## Prerequisites
 Make sure you have Python 3.x installed. The following Python libraries are also required:
 
-numpy for mathematical operations.
-matplotlib for plotting loss and accuracy graphs (optional).
-tensorflow or pytorch for simplified neural network operations.
+* numpy for mathematical operations.
+* matplotlib for plotting loss and accuracy graphs (optional).
+* tensorflow or pytorch for simplified neural network operations.
+
 You can install these libraries via pip:
 
 ```python
@@ -32,10 +33,10 @@ pip install numpy matplotlib tensorflow
 
 * The core components of the implementation are:
 
-    Initialization: Define the architecture of the neural network with input, hidden, and output layers.
-    Forward Propagation: Pass input through each layer using matrix multiplications and activation functions.
-    Backpropagation: Calculate the gradients of the loss with respect to each parameter and update the weights.
-    Optimization: Use gradient descent to update weights in the direction that reduces the loss.
+    * Initialization: Define the architecture of the neural network with input, hidden, and output layers.
+    * Forward Propagation: Pass input through each layer using matrix multiplications and activation functions.
+    * Backpropagation: Calculate the gradients of the loss with respect to each parameter and update the weights.
+    * Optimization: Use gradient descent to update weights in the direction that reduces the loss.
 
 ## Example Usage
 
@@ -56,13 +57,13 @@ pip install numpy matplotlib tensorflow
 ```
 ## Results
 
-    The network's accuracy and loss should improve over time, and it should eventually converge to an optimal solution depending on the dataset and hyperparameters chosen.
+The network's accuracy and loss should improve over time, and it should eventually converge to an optimal solution depending on the dataset and hyperparameters chosen.
 
 ## Future Improvements
 
-    Implementing other optimizers like Adam, RMSProp.
-    Support for batch normalization and dropout layers.
-    More advanced activation functions and layer configurations.
+* Implementing other optimizers like Adam, RMSProp.
+* Support for batch normalization and dropout layers.
+* More advanced activation functions and layer configurations.
 
 ## License
 
