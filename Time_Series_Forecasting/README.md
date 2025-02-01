@@ -31,5 +31,13 @@ The dataset includes multiple CSV files:
 
 ## Project Structure
 
+Walmart Retail Good Information
+
+![alt text](image-1.png)
+
+
+Methodology
 
 ![alt text](image.png)
+
+---
