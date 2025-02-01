@@ -41,3 +41,10 @@ Methodology
 ![alt text](image.png)
 
 ---
+
+## Installation & Setup
+``` python
+    %pip install feature_engine
+    %pip install sktime
+    %pip install darts
+```
