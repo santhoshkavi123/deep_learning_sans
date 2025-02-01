@@ -3,14 +3,8 @@
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Dataset Description](#dataset-description)
-3. [Project Structure](#project-structure)
-4. [Installation & Setup](#installation--setup)
-5. [Data Preprocessing](#data-preprocessing)
-6. [Modeling Approach](#modeling-approach)
-7. [Evaluation](#evaluation)
-8. [Results](#results)
-9. [Future Improvements](#future-improvements)
-10. [References](#references)
+3. [Installation & Setup](#installation--setup)
+4. [Modeling Approach](#modeling-approach)
 
 ---
 
@@ -29,7 +23,16 @@ The dataset includes multiple CSV files:
 
 ---
 
-## Project Structure
+## Installation & Setup
+``` python
+    %pip install feature_engine
+    %pip install sktime
+    %pip install darts
+```
+
+---
+
+## Modeling Approach
 
 Walmart Retail Good Information
 
@@ -39,12 +42,3 @@ Walmart Retail Good Information
 Methodology
 
 ![alt text](image.png)
-
----
-
-## Installation & Setup
-``` python
-    %pip install feature_engine
-    %pip install sktime
-    %pip install darts
-```
